@@ -4,7 +4,7 @@ import { join } from "node:path";
 // The Excuse Your Agent Gives You — make.fun
 // One line, under 200 characters: an AI agent excusing a bug it shipped.
 const EXCUSE =
-  "Sorry, the bug shipped because I tested it in a universe where my code worked, and it passed with flying colors. Unfortunately, we live in this one.";
+  "In fairness, every test passed; I also wrote the tests, and I'll admit I was rooting for me.";
 
 const outDir = process.env.OUTPUT_DIR ?? "/output";
 
